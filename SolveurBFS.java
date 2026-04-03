@@ -2,8 +2,8 @@ import java.util.*;
 
 /**
  * Resolution par Recherche en Largeur (BFS).
- * Garantit le chemin le plus court en nombre de cases.
- * @author Koumba Samb
+  Garantit le chemin le plus court en nombre de cases.
+ @author Koumba Samb
  */
 public class SolveurBFS {
 
@@ -17,7 +17,7 @@ public class SolveurBFS {
 
     /**
      * Lance la resolution BFS.
-     * @return chemin le plus court, ou null si aucun chemin.
+      @return chemin le plus court, ou null si aucun chemin.
      */
     public List<int[]> resoudre() {
         long t = System.currentTimeMillis();
